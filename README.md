@@ -53,7 +53,7 @@ Estas instrucciones le permitirán obtener una copia del proyecto en funcionamie
 
 Ubiquese en el directorio en donde desea descargar el repositorio
 
-´git clone https://github.com/Mateo0laya/TALLER-2---DISENO-Y-ESTRUCTURACION-DE-APLICACIONES-DISTRIBUIDAS-EN-INTERNET.git`
+`git clone https://github.com/Mateo0laya/TALLER-2---DISENO-Y-ESTRUCTURACION-DE-APLICACIONES-DISTRIBUIDAS-EN-INTERNET.git`
 
 Cambie al directorio del repositorio
 
