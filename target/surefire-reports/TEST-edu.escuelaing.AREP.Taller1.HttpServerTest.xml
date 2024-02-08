@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.escuelaing.AREP.Taller1.HttpServerTest" time="0.654" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.escuelaing.AREP.Taller1.HttpServerTest" time="1.032" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab1\Taller-1-Aplicacion-distribuidas---AREP\target\test-classes;C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab1\Taller-1-Aplicacion-distribuidas---AREP\target\classes;C:\Users\57322\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\57322\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\57322\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\57322\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\57322\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\57322\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab2\TALLER-2---DISENO-Y-ESTRUCTURACION-DE-APLICACIONES-DISTRIBUIDAS-EN-INTERNET\target\test-classes;C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab2\TALLER-2---DISENO-Y-ESTRUCTURACION-DE-APLICACIONES-DISTRIBUIDAS-EN-INTERNET\target\classes;C:\Users\57322\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\57322\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\57322\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\57322\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\57322\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\57322\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\57322\AppData\Local\Temp\surefire15340218316567738358\surefirebooter-20240131232336309_3.jar C:\Users\57322\AppData\Local\Temp\surefire15340218316567738358 2024-01-31T23-23-35_911-jvmRun1 surefire-20240131232336309_1tmp surefire_0-20240131232336309_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\57322\AppData\Local\Temp\surefire7312748216358425566\surefirebooter-20240207213416300_3.jar C:\Users\57322\AppData\Local\Temp\surefire7312748216358425566 2024-02-07T21-34-15_847-jvmRun1 surefire-20240207213416300_1tmp surefire_0-20240207213416300_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab1\Taller-1-Aplicacion-distribuidas---AREP\target\test-classes;C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab1\Taller-1-Aplicacion-distribuidas---AREP\target\classes;C:\Users\57322\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\57322\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\57322\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\57322\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\57322\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\57322\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab2\TALLER-2---DISENO-Y-ESTRUCTURACION-DE-APLICACIONES-DISTRIBUIDAS-EN-INTERNET\target\test-classes;C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab2\TALLER-2---DISENO-Y-ESTRUCTURACION-DE-APLICACIONES-DISTRIBUIDAS-EN-INTERNET\target\classes;C:\Users\57322\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\57322\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\57322\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\57322\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\57322\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\57322\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\57322"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2023-09-19"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab1\Taller-1-Aplicacion-distribuidas---AREP"/>
+    <property name="basedir" value="C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab2\TALLER-2---DISENO-Y-ESTRUCTURACION-DE-APLICACIONES-DISTRIBUIDAS-EN-INTERNET"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\57322\AppData\Local\Temp\surefire15340218316567738358\surefirebooter-20240131232336309_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\57322\AppData\Local\Temp\surefire7312748216358425566\surefirebooter-20240207213416300_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-LTS-2513"/>
@@ -45,12 +45,12 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\57322\AppData\Local\Temp\"/>
     <property name="java.version" value="21"/>
-    <property name="user.dir" value="C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab1\Taller-1-Aplicacion-distribuidas---AREP"/>
+    <property name="user.dir" value="C:\Users\57322\Downloads\Noveno Semestre\AREP\Lab2\TALLER-2---DISENO-Y-ESTRUCTURACION-DE-APLICACIONES-DISTRIBUIDAS-EN-INTERNET"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\dotnet\;C:\Program Files\Maven\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\57322\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\57322\AppData\Local\Programs\Python\Python310\;C:\Users\57322\AppData\Local\Microsoft\WindowsApps;;C:\Users\57322\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\57322\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files (x86)\dotnet\;C:\Program Files\Maven\apache-maven-3.9.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Gradle\gradle-8.6\bin;C:\Users\57322\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\57322\AppData\Local\Programs\Python\Python310\;C:\Users\57322\AppData\Local\Microsoft\WindowsApps;;C:\Users\57322\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\57322\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -58,11 +58,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldReturnError" classname="edu.escuelaing.AREP.Taller1.HttpServerTest" time="0.019"/>
-  <testcase name="shouldReturnBasicHtml" classname="edu.escuelaing.AREP.Taller1.HttpServerTest" time="0.001"/>
-  <testcase name="shouldReturnBasicInfo" classname="edu.escuelaing.AREP.Taller1.HttpServerTest" time="0.618">
+  <testcase name="shouldReturnHeaderofImage" classname="edu.escuelaing.AREP.Taller1.HttpServerTest" time="0.02"/>
+  <testcase name="shouldReturnError" classname="edu.escuelaing.AREP.Taller1.HttpServerTest" time="0.002"/>
+  <testcase name="shouldreturnHeaderofText" classname="edu.escuelaing.AREP.Taller1.HttpServerTest" time="0.001"/>
+  <testcase name="shoukdreturnMovie" classname="edu.escuelaing.AREP.Taller1.HttpServerTest" time="0.99">
     <system-out><![CDATA[GET Response Code :: 200
-{"Title":"The Matrix","Year":"1999","Rated":"R","Released":"31 Mar 1999","Runtime":"136 min","Genre":"Action, Sci-Fi","Director":"Lana Wachowski, Lilly Wachowski","Writer":"Lilly Wachowski, Lana Wachowski","Actors":"Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss","Plot":"When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.","Language":"English","Country":"United States, Australia","Awards":"Won 4 Oscars. 42 wins & 52 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.7/10"},{"Source":"Rotten Tomatoes","Value":"83%"},{"Source":"Metacritic","Value":"73/100"}],"Metascore":"73","imdbRating":"8.7","imdbVotes":"2,026,128","imdbID":"tt0133093","Type":"movie","DVD":"01 Jan 2009","BoxOffice":"$172,076,928","Production":"N/A","Website":"N/A","Response":"True"}
+{"Title":"Avatar","Year":"2009","Rated":"PG-13","Released":"18 Dec 2009","Runtime":"162 min","Genre":"Action, Adventure, Fantasy","Director":"James Cameron","Writer":"James Cameron","Actors":"Sam Worthington, Zoe Saldana, Sigourney Weaver","Plot":"A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.","Language":"English, Spanish","Country":"United States","Awards":"Won 3 Oscars. 90 wins & 131 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.9/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"83/100"}],"Metascore":"83","imdbRating":"7.9","imdbVotes":"1,374,723","imdbID":"tt0499549","Type":"movie","DVD":"10 Feb 2016","BoxOffice":"$785,221,649","Production":"N/A","Website":"N/A","Response":"True"}
 GET DONE
 ]]></system-out>
   </testcase>
