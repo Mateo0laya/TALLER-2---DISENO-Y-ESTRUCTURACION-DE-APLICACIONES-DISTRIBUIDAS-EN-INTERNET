@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    margin: 20px auto;
+    background-color: #f0f8ff;
+    /* Azul claro */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    background-color: #007bff;
+    /* Azul */
+    color: #fff;
+    cursor: pointer;
+}
+
+div#getrespmsg {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    /* Azul */
+    color: #fff;
+}
+
+/* Estilos para la imagen */
+.logo {
+    max-width: 400px; /* Tamaño máximo de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y el título */
+}
